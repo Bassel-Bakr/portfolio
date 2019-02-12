@@ -1,0 +1,16 @@
+body {
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif; }
+
+form {
+  display: table;
+  box-shadow: 0 0 1px 1px grey;
+  border-radius: 0.5em; }
+  form input {
+    margin-left: 1em; }
+
+.form-row {
+  display: flex;
+  justify-content: space-between;
+  margin: 1em; }
+
+/*# sourceMappingURL=style.css.map */

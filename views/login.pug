@@ -1,0 +1,12 @@
+extends layout
+
+block content
+  form(method="post")
+    .form-row
+      label Username:
+      input(type="text", name="username")
+    .form-row
+      label Password:
+      input(type="password", name="password")
+    .form-row
+      button(type="submit") Login
