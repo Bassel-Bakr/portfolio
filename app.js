@@ -125,5 +125,4 @@ app.use((err, req, res) => {
   res.render('error');
 });
 
-// bind to given port
-app.listen(process.env.PORT || 5000);
+module.exports = app;

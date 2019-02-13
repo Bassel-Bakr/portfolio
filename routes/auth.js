@@ -18,7 +18,7 @@ router.get('/logout', (req, res) => {
 });
 
 /* register users. */
-router.get('/register', (req, res) => res.render('register'));
+router.get('/register', (req, res) => req.user ? res.redirect('/') : res.render('register'));
 router.post('/register', (req, res) => {
   const data = req.body;
   // verify data
